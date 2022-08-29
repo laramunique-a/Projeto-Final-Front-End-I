@@ -1,0 +1,203 @@
+body {
+    display: flex;
+    margin: 0;
+}
+  
+header {
+    height: 100vh;
+    width: 20vw;
+    background: rgb(45,41,128);
+    background: linear-gradient(180deg, rgba(45,41,128,1) 0%, rgba(47,153,166,1) 43%, rgba(85,214,119,1) 100%);
+    position: relative;
+}
+  
+nav {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.ul-nav {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.link-nav {
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    transition: all 0.2s;    
+}
+
+.link-nav:hover {
+    color: rgb(10, 49, 121);
+    font-weight: bolder;
+    font-size: 25px;    
+    filter: drop-shadow(15px 10px 5px rgba(10, 49, 121, 0.5));
+}
+  
+.lista-nav {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+  
+#imagem-perfil {
+    text-align: center;
+    width: 190px;
+    height: 170px;
+    border-radius: 31% 69% 30% 70% / 69% 31% 69% 31%;
+    border: 4px solid #140e645e;    
+}
+
+.dados { 
+    position: fixed;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Trebuchet MS;
+}
+
+.nome {
+    margin-bottom: 0%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: rgb(10, 49, 121);
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;    
+}
+
+span {
+    color: #49b967;
+      
+}
+
+.endereço {
+    margin-top: 0%;
+    font-size: 19px;
+    color: rgb(10, 49, 121);
+    
+}
+
+.email {
+    font-family: 'Quicksand', sans-serif;   
+    font-weight: bolder; 
+    text-decoration: none;
+    color: #49b967;
+}
+
+.telefone {
+    font-family: 'Quicksand', sans-serif;   
+    font-weight: bolder; 
+    text-decoration: none;
+    color: #49b967;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.material-icons {
+    font-size: 20px;
+}
+
+.sobre {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.links ul {
+    text-align: left;
+    margin-left: -40px;
+}
+
+.links li {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.links img {
+    width: 40px;
+}
+
+.conhecimentos {
+    position: fixed;
+    top: 37%;
+    left: 43%;
+    transform: translate(-60%, -40%);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.titulo {
+    margin-bottom: 0%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: rgb(10, 49, 121);
+    font-weight: bolder;
+}
+
+.sub-titulo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #49b967;
+    font-weight: bolder;
+    margin-left: 5px;
+    margin-top: 0px;
+
+}
+
+.hard-skills {
+    list-style-type: upper-alpha;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#49b967;
+}
+
+.hard-skills-color {
+    color:black;
+}
+
+.objetivos {
+    position: fixed;
+    top: 38%;
+    left: 53%;
+    transform: translate(-60%, -40%);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sub-titulo-obj {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #49b967;
+    font-weight: bolder;
+    margin-left: 5px;
+    margin-top: 12px;
+    margin-bottom: 2%;        
+}
+
+.marc-obj {
+    list-style-type: square;    
+    font-size: 20px;
+    font-weight: bold;
+    color:#49b967;
+}
+
+.obj-color {
+    color: black;
+}
+
+ul {
+    margin: 8px;
+}
+
+

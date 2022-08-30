@@ -6,9 +6,12 @@ body {
 header {
     height: 100vh;
     width: 20vw;
-    background: rgb(45,41,128);
-    background: linear-gradient(180deg, rgba(45,41,128,1) 0%, rgba(47,153,166,1) 43%, rgba(85,214,119,1) 100%);
     position: relative;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 5px 5px 5px rgb(150, 150, 150);
+    background: #159957;
+    background: -webkit-linear-gradient(to top, #155799, #159957);
+    background: linear-gradient(to top, #155799, #159957); 
 }
   
 nav {
@@ -49,8 +52,8 @@ nav {
     text-align: center;
     width: 190px;
     height: 170px;
-    border-radius: 31% 69% 30% 70% / 69% 31% 69% 31%;
-    border: 4px solid #140e645e;    
+    border-radius: 27% 73% 27% 73% / 65% 35% 65% 35% ;
+    border: 3px solid #1557996c;    
 }
 
 .dados { 
@@ -59,6 +62,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: Trebuchet MS;
+    font-weight: bolder;
 }
 
 .nome {
@@ -67,7 +71,7 @@ nav {
     font-size: 50px;
     letter-spacing: 0px;
     word-spacing: 0px;
-    color: rgb(10, 49, 121);
+    color: #155799;
     font-weight: bold;
     text-decoration: none;
     font-style: normal;
@@ -75,7 +79,7 @@ nav {
 }
 
 span {
-    color: #49b967;
+    color: #159957;
       
 }
 
@@ -87,7 +91,7 @@ span {
 .endereço {
     margin-top: 0%;
     font-size: 19px;
-    color: rgb(10, 49, 121);
+    color: #155799;
     
 }
 
@@ -95,14 +99,14 @@ span {
     font-family: 'Quicksand', sans-serif;   
     font-weight: bolder; 
     text-decoration: none;
-    color: #49b967;
+    color: #159957;
 }
 
 .telefone {
     font-family: 'Quicksand', sans-serif;   
     font-weight: bolder; 
     text-decoration: none;
-    color: #49b967;
+    color: #159957;
     margin-top: 1px;
     margin-bottom: 5px;
 }
@@ -170,14 +174,14 @@ span {
     font-size: 50px;
     letter-spacing: 0px;
     word-spacing: 0px;
-    color: rgb(10, 49, 121);
+    color: #155799;
     font-weight: bolder;
 }
 
 .sub-titulo {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
-    color: #49b967;
+    color: #159957;
     font-weight: bolder;
     margin-left: 5px;
     margin-top: 0px;
@@ -189,7 +193,7 @@ span {
     margin-top: 15px;
     font-size: 20px;
     font-weight: bold;
-    color:#49b967;
+    color:#159957;
 }
 
 .hard-skills-color {
@@ -207,7 +211,7 @@ span {
 .sub-titulo-obj {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
-    color: #49b967;
+    color: #159957;
     font-weight: bolder;
     margin-left: 5px;
     margin-top: 12px;
@@ -218,7 +222,7 @@ span {
     list-style-type: square;    
     font-size: 20px;
     font-weight: bold;
-    color:#49b967;
+    color:#159957;
 }
 
 .obj-color {

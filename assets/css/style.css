@@ -79,6 +79,11 @@ span {
       
 }
 
+#icone-maps {
+    width: 27px;
+    height: 27px;
+}
+
 .endereço {
     margin-top: 0%;
     font-size: 19px;
@@ -133,6 +138,10 @@ span {
     left: 43%;
     transform: translate(-60%, -40%);
     font-family: 'Quicksand', sans-serif;
+}
+
+#img-dev {
+    width: 40px;
 }
 
 .titulo {

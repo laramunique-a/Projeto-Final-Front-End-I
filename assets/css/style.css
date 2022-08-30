@@ -25,7 +25,7 @@ nav {
   
 .link-nav {
     text-decoration: none;
-    color: rgb(34, 33, 33);
+    color: rgba(255, 255, 255, 0.808);
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 23px;
@@ -132,6 +132,26 @@ span {
     width: 40px;
 }
 
+.icone-rede-social-1:hover {
+    filter: drop-shadow(5px 6px 8px rgba(11, 105, 199, 0.747));
+    transition: all 0.2s; 
+}
+
+.icone-rede-social-2:hover {
+    filter: drop-shadow(5px 6px 8px rgba(77, 42, 126, 0.747));
+    transition: all 0.2s; 
+}
+
+.icone-rede-social-3:hover {
+    filter: drop-shadow(5px 6px 8px rgba(196, 72, 79, 0.747));
+    transition: all 0.2s; 
+}
+
+.icone-rede-social-4:hover {
+    filter: drop-shadow(5px 6px 8px rgba(42, 168, 26, 0.747));
+    transition: all 0.2s; 
+}
+
 .conhecimentos {
     position: fixed;
     top: 37%;
@@ -208,5 +228,9 @@ span {
 ul {
     margin: 8px;
 }
+
+
+
+
 
 
